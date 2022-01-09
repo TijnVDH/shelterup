@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/order.css">
+    <title>ShelterUP Order</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- iphone support-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" href="/images/shelter-icon96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#181C34">
+    <meta name="theme-color" content="#FFE1C4">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+    <section class="mainSection">
+    <div class="imageContainer">
+        <a href="drinks.html">
+            <div class="goBack">
+                <img src="images/arrow.png">
+            </div>
+        </a>
+        <form>
+            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+            <input type="number" id="number" value="0" />
+            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+        </form>
+        <div class="drinkorder">
+            <img  src ="images/drink1.jpg" class="product">
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="details">
+
+        <!-- !!!!!!! MINE IS WITH PNG BUT TIJN HAS JPEG !!!!!!!!!!   -->
+
+
+    <img class="imgDesc" style="position: relative; height: 38vh; width: 56vh;"src="images/orderDesign.png">
+        <div class="nameAndIncreaser">
+            <h2>OLD <br> FASHIONED</h2>
+            <p>Fresh Drink</p>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-3">
+                    15%
+                    <p> Alcohol</p>
+                  </div>
+                  <div class="col-sm-3">
+                    40%
+                   <p> Fruit</p>
+                  </div>
+                  <div class="col-sm-3">
+                    60%
+                   <p> Water</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="priceTag">
+                <p>€8</p>
+                <h3>Price per drink</h3>
+            </div>
+
+
+        </div>
+        <div class="stars">
+            <p>+20 SHELTERUP STARS</p>
+        </div>
+    </div>
+    
+    </div>
+</section>
+    <section class="footerButtons">
+    <div class="buttonsBuy">
+        <div class="addToCart">
+           <!-- ADD OTHER FOLDER HERE IN HREF INSTEAD OF #-->
+           <a href="#"> <h1>ADD TO CART</h1> </a>
+        </div>
+        <div class="payNow">
+            <a href="order.html"> <h1>PAY NOW</h1> </a>
+        </div>
+    </section>
+
+    <div id="header">
+        <div id="leftSide">
+            <a href="/following2/homepage.html">
+            <img class="iconsLeft" src="/following1/images/home 5.png">
+            </a>
+            <a href="/following2/drinks.html">
+            <img class="iconsLeft" src="/following1/images/drink 6.png">
+            </a>
+        </div>
+        <div id="challenges">
+            <a href="/following2/index.html">
+            <img id="ribbon" src="/following1/images/ribbon 5.png">
+        </a>
+        </div>
+        <div id="rightSide">
+            <a href="/following3/index.html">
+            <img class="iconsRight" src="/following1/images/taxi 5.png">
+        </a>
+            <a href="/following2/profilealt.html">
+            <img class="iconsRight" src="/following1/images/Ellipse 29.png">
+        </a>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/increase.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
+    

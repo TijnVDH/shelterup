@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/profilealt.css">
+    <link rel="manifest" href="/manifest.json">
+    <title>ShelterUP Profile</title>
+    <!-- iphone support-->
+    <link rel="apple-touch-icon" href="./images/shelter-icon96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#181C34">
+    <meta name="theme-color" content="#FFE1C4">
+    
+</head>
+<body>
+    <div class="bg-img">
+            <nav>
+                <div class="shelterUp">
+                    <a href="/following2/homepage.html"><img src="./images/shelterup icon full round title only.png"></a>
+                </div>
+                <div class="notifications">
+                    <a href="notification.html"><img src="./images/notif.png"></a>
+                </div>
+            </nav>  
+    </div>
+
+    <div class="maincontent">
+        <div class="main">
+            <div class="pfp">
+                <img src="images/userPic.jpeg">
+            </div>
+            <div class="username">
+                <h2 id="username"></h2>
+            </div>
+            <div class="balance">
+                <p id="rewardsbalance">BALANCE:         <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="20"
+                    height="20"
+                    viewBox="0 -15 172 172"
+                    style="fill: #000000"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g fill="#a937df">
+                        <path
+                          d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg></p>
+            </div>
+            <div class="status">
+                <p class="status">STATUS: <span>PLATINUM</span></p>
+            </div>
+            <div class="progressbar">
+                <progress id="file" value="75" max="100"></progress>
+            </div>
+            <div class="nextstatus">
+                <p id="rewardsstatus"></p>
+            </div>
+            <div class="currentstatus">
+                <p>200</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="editprofile.html">
+                <button>EDIT PROFILE</button>
+            </a>
+            <a href="settings.html">
+                <button>SETTINGS</button>
+            </a>
+        </div>
+
+        <div class="rewards">
+            <h1>Rewards Wallet</h1>
+            <div class="bar"></div>
+        </div>
+
+ 
+
+        <div class="events">
+            <h1>Upcoming Events</h1>
+            <div class="bar"></div>    
+        </div>
+    </div>
+
+    <div id="header">
+        <div id="leftSide">
+            <a href="/following2/homepage.html">
+            <img class="iconsLeft" src="/following1/images/home 5.png">
+            </a>
+            <a href="/following2/drinks.html">
+            <img class="iconsLeft" src="/following1/images/drink 6.png">
+            </a>
+        </div>
+        <div id="challenges">
+            <a href="/following2/index.html">
+            <img id="ribbon" src="/following1/images/ribbon 5.png">
+        </a>
+        </div>
+        <div id="rightSide">
+            <a href="/following3/index.html">
+            <img class="iconsRight" src="/following1/images/taxi 5.png">
+        </a>
+            <a href="/following2/profilealt.html">
+            <img class="iconsRight" src="/following1/images/Ellipse 29.png">
+        </a>
+        </div>
+    </div>
+
+    <script src="js/pointsystem.js"></script>
+    <script src="js/user.js"></script>
+</body>
+</html>

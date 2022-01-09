@@ -1,0 +1,39 @@
+#discount {
+    width: 291px;
+    height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background: rgba(24, 28, 52, 0.6);
+    box-shadow: 1px 1px 2px rgba(17, 20, 36, 0.5), inset -7px 7px 14px rgba(17, 20, 36, 0.2);
+    border-radius: 25px;
+    border: none;
+
+    overflow: hidden;
+}
+
+.discountCode {
+    color: white;
+    position: absolute;
+    left: 25%;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#applyDiscount {
+    background: linear-gradient(126.37deg, #8C18FF 44.09%, #EF78F1 87.99%);
+    position: relative;
+    width: 36px;
+    height: 29px;
+    border-radius: 60px;
+
+    left: 35%;
+    top: 20%;
+    border: none;
+}
+
+#applyDiscount:active {
+    background: linear-gradient(126.37deg, #a144ff 44.09%, #f390f5 87.99%);
+}

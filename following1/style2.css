@@ -1,0 +1,264 @@
+body {
+    overflow-x: hidden;
+    background-color: #0E1111;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 145vh;
+}
+/* top navbar */
+
+
+nav {
+    justify-content: space-between;
+}
+
+
+.notifications img {
+    width: 42px;
+}
+body img {
+    height: 100%;
+}
+nav {
+    display: flex;
+    margin: 20px;
+    height: 44px;
+}
+
+.search {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.search h2 {
+    font-size: 14px;
+    color: white;
+}
+
+.form-control {
+    background-color: #1F1F1F;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+}
+/* end of top navbar */
+
+.events {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    grid-row-gap: 30px;
+    margin-bottom: 38px;
+}
+
+.events img {
+    width: 158px;
+    height: 140px;
+    border-radius: 25px;
+}
+
+.eventsView {
+    float: right;
+    margin-top: -27px;
+    margin-right: 10px;
+    color: #3C499A !important;
+}
+
+.search h1{
+    font-size: 19px;
+    color: white;
+    margin-top: 15px;
+}
+
+.homepage, .drink, .reward, .uber, .profile {
+    margin-bottom: 20px;
+}
+
+/* quests tab */
+.q1 {
+width: 358px;
+height:89px;
+background: #181C34;
+box-shadow: -1px -1px 2px rgba(31, 36, 68, 0.3), 1px 1px 2px rgba(17, 20, 36, 0.5), inset 7px -7px 14px rgba(17, 20, 36, 0.2), inset -7px 7px 14px rgba(17, 20, 36, 0.2), inset 7px 7px 14px rgba(31, 36, 68, 0.9), inset -7px -7px 18px rgba(17, 20, 36, 0.9);
+border-radius: 25px;
+margin-bottom: 5%;
+}
+
+
+
+/* img */
+
+.imgQuest {
+position: absolute;
+width: 67px;
+height: 74px;
+left: 33px;
+margin-top: 9px;
+;
+}
+
+
+.q1 h1, .q2 h1{
+position: absolute;
+left: 112px;
+font-family: 'Montserrat', sans-serif;
+text-transform: capitalize;
+}
+
+.q1 p, .q2 p {
+    /* Oct 16, 2021 */
+    
+    position: absolute;
+    left: 112px;
+    font-family:'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: rgba(190, 190, 190, 0.9);
+    
+    }
+.q2 {
+    width: 358px;
+    height:89px;
+    background: #181C34;
+    box-shadow: -1px -1px 2px rgba(31, 36, 68, 0.3), 1px 1px 2px rgba(17, 20, 36, 0.5), inset 7px -7px 14px rgba(17, 20, 36, 0.2), inset -7px 7px 14px rgba(17, 20, 36, 0.2), inset 7px 7px 14px rgba(31, 36, 68, 0.9), inset -7px -7px 18px rgba(17, 20, 36, 0.9);
+    border-radius: 25px;
+
+/* background: url(.jpg); */
+
+}
+.menu {
+    display: flex;
+}
+.drinksTab, .uberTab {
+display: flex;
+margin: auto;
+width: 163px;
+height: 148px;
+background: linear-gradient(148.05deg, rgba(60, 73, 154, 0.53) 19.5%, rgba(140, 24, 255, 0.53) 79.67%);
+border-radius: 20px;
+}
+
+.drinksTab img, .uberTab img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+/* footer new */
+
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    top: 90%;
+    background-color: #191D37;
+    z-index: 1;
+
+    box-shadow: 19px 19px 52px rgba(10, 12, 22, 0.2),
+        19px 19px 52px rgba(10, 12, 22, 0.2),
+        19px 19px 52px rgba(38, 44, 82, 0.9),
+        19px 19px 65px rgba(10, 12, 22, 0.9),
+        inset 1px -1px 2px rgba(38, 44, 82, 0.3),
+        inset -1px 1px 2px rgba(10, 12, 22, 0.5);
+}
+
+#challenges {
+    height: 130px;
+    width: 130px;
+    position: fixed;
+    bottom: 0px;
+    top: 86%;
+    background-color: #191D37;
+    border-radius: 50%;
+    z-index: 2;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 10%;
+    right: 10%;
+    animation-duration: 0.1s;
+
+    box-shadow: 19px 19px 62px rgba(19, 22, 41, 0.2),
+        19px 19px 62px rgba(19, 22, 41, 0.2),
+        19px 19px 62px rgba(29, 34, 63, 0.9),
+        19px 19px 78px rgba(19, 22, 41, 0.9),
+        inset 1px -1px 2px rgba(29, 34, 63, 0.3),
+        inset -1px 1px 2px rgba(19, 22, 41, 0.5);
+}
+
+#challenges:active {
+    background-color: #2d3357;
+    transition: all 0.2s;
+}
+
+#leftSide {
+    z-index: 3;
+    position: absolute;
+    left: -9px;
+}
+
+.iconsLeft {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    margin-bottom: -40px;
+}
+
+#rightSide {
+    position: absolute;
+    right: -9px;
+
+    z-index: 3;
+}
+
+.iconsRight {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    margin-bottom: -40px;
+}
+
+#ribbon {
+    position: fixed;
+    width: 38px;
+    height: 62px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto;
+
+    left: 10%;
+    right: 10%;
+}
+
+.noInternet {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: white;
+}
+
+.noInternet button {
+    background: linear-gradient(
+        180deg, #8C18FF 24.48%, rgba(215, 87, 236, 0.53) 93.23%);
+            border-radius: 25px;
+            width: 215px;
+            display: block;
+            margin: auto;
+            height: 38px;
+}
+
+.noInternet button a {
+    color: white !important;
+}

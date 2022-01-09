@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0e1111;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #8c18ff;
+}
+
+.main-container {
+  padding-top: 65px;
+  margin-left: 45px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+}
+
+.connect,
+.done,
+.connected {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 130px;
+  height: 50px;
+  font-size: 14 px;
+  background: linear-gradient(
+    180deg,
+    #8c18ff 24.48%,
+    rgba(215, 87, 236, 0.53) 93.23%
+  );
+  border-radius: 25px;
+  outline-style: none;
+}
+
+.connected {
+  font-weight: bold;
+}
+.connect {
+  background: linear-gradient(
+    180deg,
+    rgba(111, 21, 201, 0.5) 24.48%,
+    rgba(215, 87, 236, 0.265) 93.23%
+  );
+}
+.bottom-container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: 40px;
+  justify-content: center;
+}
+
+.skip {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #3c499a;
+  margin-left: 10px;
+}
+
+.done {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.snap-pic,
+.twitter-pic,
+.insta-pic,
+.fb-pic {
+  width: 35px;
+  height: 35px;
+  margin-right: 50px;
+}
+/*
+p.snap,
+p.insta {
+  margin-right: 40px;
+  padding-top: 12px;
+}
+
+p.fb {
+  padding-top: 12px;
+  margin-right: 45px;
+}
+
+p.twitter {
+  padding-top: 12px;
+  margin-right: 60px;
+}
+*/
+
+p {
+  width: 120px;
+}
+
+.snapchat,
+.twitter,
+.instagram,
+.facebook {
+  display: flex;
+  grid-template-rows: 1fr 2fr 1fr;
+}

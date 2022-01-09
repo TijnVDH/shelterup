@@ -1,0 +1,311 @@
+body {
+    overflow-x: hidden;
+    background-color: #0E1111;
+    height: 140vh;
+    font-family: 'Montserrat', sans-serif;
+}
+/* top navbar */
+body img {
+    height: 100%;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+
+.notifications img {
+    width: 42px;
+}
+
+nav {
+    display: flex;
+    margin: 20px;
+    height: 44px;
+}
+
+
+/* main content */ 
+
+.mainContent {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+.rewardsAndPoints {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewards {
+    /* Rewards */
+display: flex;
+width: 156px;
+height: 32px;
+background: -webkit-linear-gradient(#DA748F, #8C18FF);
+-webkit-background-clip: text;
+        background-clip: text;
+-webkit-text-fill-color: transparent;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 26px;
+
+
+}
+
+.points {
+    margin-top: 21px;
+width: 104px;
+height: 93px;
+
+border: 2px;
+border-image-source: linear-gradient(to right, #CB78F1A1 , #8C18FF1C);
+}
+
+.imgItems {
+    width: 150px;
+    display: flex;
+    margin: auto;
+    height: 178px;
+    border-radius: 15px;
+}
+.freeItems {
+    display: flex;
+    height: 219px;
+    justify-content: space-around;
+}
+
+.free1, .free2 img {
+width: 160px;
+
+border-radius: 10px;
+}
+
+.free2 {
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    font-style: normal;
+    font-size: 15.5px;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+/* Old fashioned */
+.stars h1 {
+height: 21px;
+
+font-size: 14.5px;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.9);
+}
+.stars h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 30px;
+    font-style: normal;
+    font-size: 15.5px;
+    color: rgba(255, 255, 255, 0.9);
+    background: #191D37;
+    border-radius: 10px;
+}
+
+.stars h3{
+    display: flex;
+    width: 159px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-style: normal;
+    font-size: 15.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(178, 94, 208, 0.97);
+    border-radius: 10px;
+    }
+
+.stars {
+position: absolute;
+margin-top: -55px;
+
+}
+
+.hFree{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-left: 13px;
+
+}
+
+/* accept Pop Up tab page (accept.html) */
+.popUp {
+
+width: 322px;
+height: 409px;
+margin: auto;
+margin-top: 100px;
+
+background: rgba(57, 68, 134, 0.52);
+border-radius: 26px;
+}
+
+.elements {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.elements h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.elements p {
+    font-size: 14px;
+}
+.elements img {
+    width: 102px;
+    height: 100px;
+}
+.elements h2 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+h2 img {
+    margin-top: -6px;
+        width: 25px;
+        height: 30px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.button1 button {
+width: 122px;
+height: 44px;
+border: hidden;
+background: linear-gradient(180deg, #8C18FF 24.48%, rgba(215, 87, 236, 0.53) 93.23%);
+border-radius: 25px;
+color: white;
+}
+
+.button2 button {
+width: 122px;
+height: 44px;
+border: 2px solid #EF78F1;
+border-radius: 25px;
+background: transparent;
+color: white;
+}
+
+/* end of accept.html */
+
+/* footer */
+
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    top: 90%;
+    background-color: #191D37;
+    z-index: 1;
+
+    box-shadow: 19px 19px 52px rgba(10, 12, 22, 0.2),
+        19px 19px 52px rgba(10, 12, 22, 0.2),
+        19px 19px 52px rgba(38, 44, 82, 0.9),
+        19px 19px 65px rgba(10, 12, 22, 0.9),
+        inset 1px -1px 2px rgba(38, 44, 82, 0.3),
+        inset -1px 1px 2px rgba(10, 12, 22, 0.5);
+}
+
+#challenges {
+    height: 130px;
+    width: 130px;
+    position: fixed;
+    bottom: 0px;
+    top: 86%;
+    background-color: #191D37;
+    border-radius: 50%;
+    z-index: 2;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 10%;
+    right: 10%;
+    animation-duration: 0.1s;
+
+    box-shadow: 19px 19px 62px rgba(19, 22, 41, 0.2),
+        19px 19px 62px rgba(19, 22, 41, 0.2),
+        19px 19px 62px rgba(29, 34, 63, 0.9),
+        19px 19px 78px rgba(19, 22, 41, 0.9),
+        inset 1px -1px 2px rgba(29, 34, 63, 0.3),
+        inset -1px 1px 2px rgba(19, 22, 41, 0.5);
+}
+
+#challenges:active {
+    background-color: #2d3357;
+    transition: all 0.2s;
+}
+
+#leftSide {
+    z-index: 3;
+    position: absolute;
+    left: -9px;
+}
+
+.iconsLeft {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    margin-bottom: -40px;
+}
+
+#rightSide {
+    position: absolute;
+    right: -9px;
+
+    z-index: 3;
+}
+
+.iconsRight {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    margin-bottom: -40px;
+}
+
+#ribbon {
+    position: fixed;
+    width: 38px;
+    height: 62px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto;
+
+    left: 10%;
+    right: 10%;
+}

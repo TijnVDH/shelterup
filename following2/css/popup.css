@@ -1,0 +1,51 @@
+.pop_up {
+    position: fixed;
+    background-color: rgb(36, 43, 78);
+    border-radius: 26px;
+
+    width: 322px;
+    height: 204px;
+    z-index: 2;
+    text-align: center;
+    margin: auto;
+
+    overflow: hidden;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+}
+
+.popContent {
+    position: absolute;
+    top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.popButton {
+    border: 2px solid rgb(255, 137, 239);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+
+    width: 100px;
+    height: 39px;
+}
+
+.popButton:active {
+    background: linear-gradient(180deg, #a74eff 24.48%, rgba(217, 123, 231, 0.53) 93.23%);
+}
+
+.popButtonNo {
+    background: linear-gradient(180deg, #8C18FF 24.48%, rgba(215, 87, 236, 0.53) 93.23%);
+    border-radius: 25px;
+    color: white;
+    border: none;
+
+    width: 100px;
+    height: 39px;
+}
+
+.popButtonNo:active {
+    background: linear-gradient(180deg, #a74eff 24.48%, rgba(217, 123, 231, 0.53) 93.23%);
+}

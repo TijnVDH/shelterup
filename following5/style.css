@@ -1,0 +1,66 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body {
+    background-color: #0E1111;
+}
+
+.info {
+    position: relative;
+    width: 100%;
+}
+
+.info h1 {
+color: #8C18FF;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+text-align: center;
+}
+
+.info img {
+    display: block;
+    width: 120px;
+    margin: auto;
+}
+
+.signupform {
+    width: 90%;
+    margin: auto;
+}
+
+.form-control { 
+    border: 1px #ced4da;
+}
+
+.form-group label{
+    color: white;
+}
+
+.form-group input { 
+    background: rgba(196, 196, 196, 0.15);
+    border-radius: 15px;
+}
+
+.form-check {
+    text-align: center;
+}
+
+.signupform button {
+    background: linear-gradient(180deg, #8C18FF 24.48%, rgba(215, 87, 236, 0.53) 93.23%);
+    border-radius: 25px;
+    width: 215px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+#birthday {
+    color: rgba(255, 255, 255, 0.5);
+}
+/* Rectangle 102 */
+
+

@@ -1,0 +1,413 @@
+body {
+    overflow-x: hidden;
+    background-color: #0e1111;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 125vh;
+}
+/* top navbar */
+
+
+nav {
+    justify-content: space-between;
+}
+
+
+.notifications img {
+    width: 42px;
+}
+body img {
+    height: 100%;
+}
+nav {
+    display: flex;
+    margin: 20px;
+    height: 44px;
+}
+
+
+.mainContent {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.mainContent h1 {
+    position: absolute;
+    color: white;
+    top: 24%;
+    left: 13%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mainContent2 {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.mainContent2 h1{
+    position: absolute;
+    color: white;
+    top: 21%;
+    left: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 14%;
+    left: 35%;
+}
+.title2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 14%;
+    left: 35%;
+}
+.shape {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  #header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    top: 90%;
+    background-color: #191D37;
+    z-index: 1;
+  
+    box-shadow: 19px 19px 52px rgba(10, 12, 22, 0.2),
+        19px 19px 52px rgba(10, 12, 22, 0.2),
+        19px 19px 52px rgba(38, 44, 82, 0.9),
+        19px 19px 65px rgba(10, 12, 22, 0.9),
+        inset 1px -1px 2px rgba(38, 44, 82, 0.3),
+        inset -1px 1px 2px rgba(10, 12, 22, 0.5);
+  }
+  
+  #challenges {
+    height: 130px;
+    width: 130px;
+    position: fixed;
+    bottom: 0px;
+    top: 86%;
+    background-color: #191D37;
+    border-radius: 50%;
+    z-index: 2;
+  
+    margin-left: auto;
+    margin-right: auto;
+    left: 10%;
+    right: 10%;
+    animation-duration: 0.1s;
+  
+    box-shadow: 19px 19px 62px rgba(19, 22, 41, 0.2),
+        19px 19px 62px rgba(19, 22, 41, 0.2),
+        19px 19px 62px rgba(29, 34, 63, 0.9),
+        19px 19px 78px rgba(19, 22, 41, 0.9),
+        inset 1px -1px 2px rgba(29, 34, 63, 0.3),
+        inset -1px 1px 2px rgba(19, 22, 41, 0.5);
+  }
+  
+  #challenges:active {
+    background-color: #2d3357;
+    transition: all 0.2s;
+  }
+  
+  #leftSide {
+    z-index: 3;
+    position: absolute;
+    left: -9px;
+  }
+  
+  .iconsLeft {
+    margin-left: 25px;
+    margin-right: 25px;
+  
+    margin-bottom: -40px;
+  }
+  
+  #rightSide {
+    position: absolute;
+    right: -9px;
+  
+    z-index: 3;
+  }
+  
+  .iconsRight {
+    margin-left: 25px;
+    margin-right: 25px;
+  
+    margin-bottom: -40px;
+  }
+  
+  #ribbon {
+    position: fixed;
+    width: 38px;
+    height: 62px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto;
+  
+    left: 10%;
+    right: 10%;
+  }
+  
+  td {
+    margin: 0;   
+    color: white;    
+    text-shadow:
+      3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px  1px 0 #000,
+      1px  1px 0 #000;
+    font-size: 40px;
+  }
+
+  .btn {
+    margin-top: 30px;
+    width: 159px;
+    height: 40px;
+    border: 2.5px solid #5861B4;
+    filter: drop-shadow(-1px -1px 2px rgba(127, 140, 255, 0.3)) drop-shadow(1px 1px 2px rgba(49, 54, 101, 0.5));
+    border-radius: 15px;
+    margin-bottom: 6px;
+    background: black;
+    color: white;
+  }
+
+  
+
+  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.main-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.upload-main-wrapper{
+    width: 200px;
+    margin: 0 auto;
+}
+#file-upload-name{
+    margin: 4px 0 0 0;
+    font-size: 12px;
+}
+.upload-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 40px auto 0;
+    position: relative;
+    cursor: pointer;
+    background-color: #191D37;
+    padding: 8px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.2s linear all;
+    color: #ffffff;
+}
+.upload-wrapper input[type="file"] {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.upload-wrapper > svg {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+.upload-wrapper.success > svg{
+    transform: translateX(-200px);
+}
+.upload-wrapper.uploaded {
+    transition: 0.2s linear all;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    text-align: center;
+}
+.upload-wrapper .file-upload-text {
+    position: absolute;
+    left: 80px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s linear all;
+}
+.upload-wrapper.uploaded .file-upload-text {
+    text-indent: -999px;
+    margin: 0;
+}
+.file-success-text {
+    opacity: 0;
+    transition: 0.2s linear all;
+    visibility: hidden;
+    transform: translateX(200px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.file-success-text svg {
+    width: 25px;
+    height: auto;
+}
+.file-success-text span{
+   margin-left: 15px;
+}
+.upload-wrapper.success .file-success-text{
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+.upload-wrapper.success.uploaded .file-success-text{
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+.upload-wrapper.success.uploaded .file-success-text span{
+    display: none;
+}
+.upload-wrapper .file-success-text circle{
+	  stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+    transition: 1s linear all;
+    transition-delay: 1.4s;
+}
+.upload-wrapper.success .file-success-text  circle {
+	stroke-dashoffset: 0;
+}
+.upload-wrapper .file-success-text polyline {
+	stroke-dasharray: 380;
+	stroke-dashoffset: 380;
+	transition: 1s linear all;
+	transition-delay: 2s;
+}
+.upload-wrapper.success .file-success-text polyline {
+    stroke-dashoffset: 0;
+}
+.upload-wrapper.success .file-upload-text{
+    -webkit-animation-name: bounceOutLeft;
+    animation-name: bounceOutLeft;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes bounceOutLeft {
+    20% {
+        opacity: 1;
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0);
+    }
+}
+
+@keyframes bounceOutLeft {
+    20% {
+        opacity: 1;
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0);
+    }
+}
+
+/* event part */
+
+.eventContent {
+    width: 92%;
+    margin: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 120%;
+}
+
+.eventContent hr {
+    width: 275px;
+    border: 4px solid rgba(72, 23, 80, 0.96);
+    margin-top: -3px;
+}
+
+.eventContent h1 {
+    font-size: 35px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.eventContent h3 {
+    font-size: 20px;
+    width: 94%;
+    margin: auto;
+}
+
+.bToHome {
+    background: black;
+    color: white;
+    border: 4px solid rgba(72, 23, 80, 0.96);
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.socials {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.socials img {
+    width: 60px;
+    margin: 20px;
+    height: 65px;
+}
