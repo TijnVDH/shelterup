@@ -1,7 +1,7 @@
 let mainelement = document.querySelector("main");
 
     console.debug("Retrieving list from API");
-    fetch("http://localhost:8080/drinks/")
+    fetch("https://shelterupapp.herokuapp.com/drinks")
     .then((response) => {
         return response.json();
     }).then((data) => {

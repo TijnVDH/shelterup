@@ -3,7 +3,7 @@ let mainelement = document.querySelector("main");
 document.querySelector("button").addEventListener("click", () => {
     console.debug("Retrieving list from API");
     const drink=JSON.stringify({name:"Heineken Classic",type:"Beer", alcohol: 7, price: 4, points: 10});
-    fetch("http://localhost:8080/drinks/", {
+    fetch("https://shelterupapp.herokuapp.com/drinks", {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

@@ -1,7 +1,7 @@
 console.log("test");
 document.querySelector("button").addEventListener("click", (event) => {    
     event.preventDefault();
-    fetch("http://localhost:8080/points/").
+    fetch("https://shelterupapp.herokuapp.com/points").
     then((response) => {
         return response.json(); 
     }).then((data) => {
@@ -9,7 +9,7 @@ document.querySelector("button").addEventListener("click", (event) => {
             window.location.href = "/following2/redirect.html";
         } else {
             const reward=JSON.stringify({name:"Halloween Party", points: 50});
-            fetch("http://localhost:8080/rewards/", {
+            fetch("https://shelterupapp.herokuapp.com/rewards", {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',

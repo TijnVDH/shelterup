@@ -2,7 +2,7 @@ let mainelement = document.querySelector("main");
 
 
     console.debug("Retrieving list from API");
-    fetch("http://localhost:8080/points/").
+    fetch("https://shelterupapp.herokuapp.com/points").
     then((response) => {
         return response.json(); 
     }).then((data) => {

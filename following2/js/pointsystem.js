@@ -2,7 +2,7 @@ let mainelement = document.querySelector("main");
 
 
     console.debug("Retrieving list from API");
-    fetch("http://localhost:8080/drinks/").
+    fetch("https://shelterupapp.herokuapp.com/drinks").
     then((response) => {
         return response.json(); 
     }).then((data) => {
@@ -16,7 +16,7 @@ let mainelement = document.querySelector("main");
         const statuscontainer = document.querySelector('#rewardsstatus')
         statuscontainer.innerHTML = statuscontainer.innerHTML + `${earned}`
 
-        fetch("http://localhost:8080/rewards/").
+        fetch("https://shelterupapp.herokuapp.com/rewards").
         then((response) => {
             return response.json(); 
         }).then((data) => {

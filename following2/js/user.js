@@ -1,5 +1,5 @@
     console.debug("Retrieving list from API");
-    fetch("http://localhost:8080/users/").
+    fetch("https://shelterupapp.herokuapp.com/users").
     then((response) => {
         return response.json(); 
     }).then((data) => {
